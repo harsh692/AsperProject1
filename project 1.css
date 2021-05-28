@@ -1,0 +1,106 @@
+*{
+    margin: 0 0 0 0;
+    padding:0 0 0 0;
+}
+body{
+    font-family: sans-serif;
+    background: url(10099-31_scan_luna.jpg);
+   
+}
+.back1{
+    padding-top: 0;
+    margin-top: 0;
+    height: 195px;
+    width: 100%;
+    background: url(unnamed.jpg);
+}
+.set{
+  
+  margin:0 300px 0 300px;
+}
+.nav{
+  margin-top: 59px;
+}
+set h4{
+  margin-left: 20px;
+}
+.head{
+    padding-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+/*navigation*/
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(0, 132, 255);
+    
+  }
+  
+  .navlist li {
+    float: left;
+    margin-top: 0;
+  }
+  
+  .navlist li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+  
+  .navlist li a:hover{
+    background-color: rgb(18, 43, 156);
+  }
+  
+ /*end nav*/
+
+ .back2{
+   margin: 0 300px 0 300px;
+   background: white;
+ }
+ .grid-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align:left;
+}
+h6{
+  text-align: left;
+}
+.text{
+  font-size: 17px;
+  text-align: left;
+}
+
+ul.a{
+  list-style-type:none;
+}
+.link{
+  font-size: 18px;
+  color: brown;
+}
+.search{
+  font-size: 12px;
+  padding:4px 40px 4px 4px;
+  margin:0;
+  border:1px solid black;
+}
+.footer{
+  color: white;
+  font-size: 20px;
+  padding: 35px;
+  background-color: rgb(0, 132, 255);
+}
